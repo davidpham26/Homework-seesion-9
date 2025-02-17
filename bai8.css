@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    
+}
+
+
+.section {
+    padding: 40px 0;
+    background-color: #f0f0f0;
+    
+}
+p{
+    color: gray;
+}
+
+.button {
+    background-color: rgb(84, 79, 79);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.project-container {
+    text-align: center;
+    color: gray;
+}
+
+.project {
+    width: 150px;
+    height: 150px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.project-container p {
+    color: gray;
+    font-size: 14px;
+}
+
+.about-section {
+    padding: 20px;
+    background-color: #f0f0f0;
+    
+}
+
+.about-section p {
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    color: gray;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
