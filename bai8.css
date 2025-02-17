@@ -1,13 +1,10 @@
-* {
-    margin: 0;
-    padding: 0;
+body {
     box-sizing: border-box;
     font-family: Arial, sans-serif;
-}
-
-body {
-    background-color: #f8f8f8;
     text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
 }
 
 .header {
@@ -28,16 +25,27 @@ body {
     text-decoration: none;
     margin: 0 15px;
     font-size: 16px;
-    
 }
 
-
-.section {
-    padding: 40px 0;
+.top-section {
     background-color: #f0f0f0;
+    padding: 40px 0;
+}
+
+.main-content {
+    background-color: white;
+    padding: 40px 0;
+    width: 100%;
+    margin: 0;
     
 }
-p{
+.about-section {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+}
+
+
+p {
     color: gray;
 }
 
@@ -76,24 +84,10 @@ p{
     color: gray;
     font-size: 14px;
 }
-
-.about-section {
-    padding: 20px;
-    background-color: #f0f0f0;
-    
-}
-
-.about-section p {
-    max-width: 80%;
-    margin: 0 auto;
-    text-align: center;
-    color: gray;
-}
-
 .footer {
     background-color: #333;
-    color: white;
+    color: rgba(117, 116, 116, 0.81);
     text-align: center;
     padding: 15px;
     margin-top: 20px;
-}
+}   
